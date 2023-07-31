@@ -1,5 +1,7 @@
 package ru.netology;
 
+import java.util.Objects;
+
 public class Player {
     protected int id;
     protected String name;

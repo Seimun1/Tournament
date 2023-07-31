@@ -13,6 +13,7 @@ public class GameTest {
     Player player1 = new Player(1, "Fedya", 15);
     Player player2 = new Player(2, "Kolya", 12);
     Player player3 = new Player(3, "Dima", 12);
+    Player player4 = new Player(4, "", 17);
 
     ArrayList<Player> players = new ArrayList<>();
     Game game = new Game(players);
@@ -66,4 +67,5 @@ public class GameTest {
             game.round(player1.getName(), "Ilya");
         });
     }
+
 }
