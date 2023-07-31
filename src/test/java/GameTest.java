@@ -1,11 +1,8 @@
+package ru.netology;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.netology.Game;
-import ru.netology.NotRegisteredException;
-import ru.netology.Player;
-
-import java.awt.*;
 import java.util.ArrayList;
 
 public class GameTest {
